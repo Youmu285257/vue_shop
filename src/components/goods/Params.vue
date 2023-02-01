@@ -192,7 +192,7 @@ export default {
     },
     // tab页签点击事件的处理函数
     handleTabClick() {
-      console.log(this.activeName)
+      // console.log(this.activeName)
       this.getParamsData()
     },
     // 获取参数的列表数据
@@ -225,7 +225,7 @@ export default {
         item.inputValue = ''
       })
 
-      console.log(res.data)
+      // console.log(res.data)
       if (this.activeName === 'many') {
         this.manyTableData = res.data
       } else {
